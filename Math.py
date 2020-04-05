@@ -24,7 +24,7 @@ def infected_rate(a, b, S, I):
 def recovered_rate(b, I)
 	return b * I
 ############################################
-#Canda's population:
+#Canada's population:
 N = 37660320
 
 data = csv.reader(open('Recovered.csv', 'r'), delimiter=",")
